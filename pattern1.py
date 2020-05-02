@@ -5,5 +5,5 @@ while(i<=4):
     while(j<=4):
         print('*',end="")   #by using this tend the execution continues in the same line and does not go to new line
         j=j+1
-    print('\n')
+    print()
     i=i+1
