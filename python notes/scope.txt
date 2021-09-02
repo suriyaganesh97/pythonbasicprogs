@@ -1,0 +1,52 @@
+scope:
+
+
+local scope:
+	The variable or function declared within a function with local scope will be accessible only within the function. when we try to access it outside it will show not defined error.
+	
+Global Scope:
+	the function or variable declared outside the functions. i.e in global scope can be access within or even outside the function
+	
+block scope:
+	when we create a variable within if condition or for loop then that variable will be generally local scope. but if the if or for loop block is within a function then the variable created will have local scope of the function.
+	in Python there is no block scope. Inside a if/else/for/while code block is the same as outside it.
+	
+modifying global scope:
+	global scope variable if we use in functions with the same variable name it will create a variable with local scope and only modify it, to change the value of the global scope variable we need to code by using global keyword. but it is not recommended to change the global variable like this instead what is recommended is to use return statements so you can store it in some other variable and also track the change in the function
+
+	
+enemies = 1
+
+def increase_enemies():
+  enemies = 2
+  print(f"enemies inside function: {enemies}")
+
+increase_enemies()
+print(f"enemies outside function: {enemies}")
+
+output:
+enemies inside function: 2
+enemies outside function: 1
+	
+with using global variable
+
+enemies = 1
+
+def increase_enemies():
+  global enemies
+  enemies = 2
+  print(f"enemies inside function: {enemies}")
+
+increase_enemies()
+print(f"enemies outside function: {enemies}")
+
+output:
+enemies inside function: 2
+enemies outside function: 2
+
+
+
+
+
+Global constants:
+usually constants value in variable like PI wont change, so in order to differentiate them easily the naming convention used is to name them all in capital casing
