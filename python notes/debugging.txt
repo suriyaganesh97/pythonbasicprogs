@@ -1,0 +1,27 @@
+steps to debug:
+1.describe the problem
+describe the problem in a proper manner and then start debugging
+
+2.reproduce the bug
+for inconsistent errors and bugs try to make the issue atleast consistent and then see where the logic fails
+
+3.play computer and evaluate each line
+for if conditions and loops go thorough the code like computer to find bugs
+
+4.fix the error:
+try to fix the errors that are shown in editor and the console by googling them
+
+5. use print statement:
+use print statements in condditions and loops
+
+6. use a debugger
+use in pythontutor or use local ide
+
+7. take a break
+
+8. ask a friend
+
+9. run code often:
+run the code in small parts to avoid debugging a huge code so that flow is easy to catch
+
+10.  use stack overflow
