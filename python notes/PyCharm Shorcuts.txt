@@ -1,0 +1,136 @@
+
+link from where the content was copied
+https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html
+
+
+pycharm shortcuts: 
+alt + shit then select multiple lines with mouse to write on all lines simultaneously
+
+PyCharm has keyboard shortcuts for most of its commands related to editing, navigation, refactoring, debugging, and other tasks. Memorizing these hotkeys can help you stay more productive by keeping your hands on the keyboard.
+
+If your keyboard does not have an English layout, PyCharm may not detect all of the shortcuts correctly.
+
+The following table lists some of the most useful shortcuts to learn:
+
+Shortcut	Action
+Double Shift	
+Search Everywhere
+
+Quickly find any file, action, class, symbol, tool window, or setting in PyCharm, in your project, and in the current Git repository.
+
+Ctrl+Shift+A	
+Find Action
+
+Find a command and execute it, open a tool window, or search for a setting.
+
+Alt+Enter	
+Show Context Actions
+
+Quick-fixes for highlighted errors and warnings, intention actions for improving and optimizing your code.
+
+F2
+Shift+F2
+Navigate between code issues
+
+Jump to the next or previous highlighted error.
+
+Ctrl+E	
+View recent files
+
+Select a recently opened file from the list.
+
+Ctrl+W
+Ctrl+Shift+W	
+Extend or shrink selection
+
+Increase or decrease the scope of selection according to specific code constructs.
+
+Ctrl+/
+Ctrl+Shift+/	
+Add/remove line or block comment
+
+Comment out a line or block of code.
+
+Alt+F7	
+Find Usages
+
+Show all places where a code element is used across your project.
+
+If you are using one of the predefined keymaps for your OS, you can print the default keymap reference card and keep it on your desk to consult it if necessary. This cheat sheet is also available under Help | Keymap Reference.
+
+Choose the right keymap﻿
+To view the keymap configuration, open the Settings/Preferences dialog Ctrl+Alt+S and select Keymap.
+
+Enable function keys and check for possible conflicts with global OS shortcuts.
+
+Use a predefined keymap
+
+PyCharm automatically suggests a predefined keymap based on your environment. Make sure that it matches the OS you are using or select the one that matches shortcuts from another IDE or editor you are used to (for example, Emacs).
+
+When consulting this page and other pages in PyCharm documentation, you can see keyboard shortcuts for the keymap that you use in the IDE — choose it using the selector at the top of a page.
+
+Tune your keymap
+
+You can modify a copy of any predefined keymap to assign your own shortcuts for commands that you use frequently.
+
+Import custom keymap
+
+If you have a customized keymap that you are used to, you can transfer it to your installation.
+
+Besides the default set of keymaps, you can add more as plugins (such as, keymaps for GNOME and KDE): open the Settings/Preferences dialog Ctrl+Alt+S, select Plugins and search for keymap in the Marketplace.
+
+If your keymap stopped working after an update, it is likely that the keymap is not available by default in the new version of PyCharm. Find this keymap as a plugin and install it on the Plugins page as described in Manage plugins.
+
+Print your keymap﻿
+If you prefer a hard copy, download the default PyCharm keymap reference and print it out as a card:
+
+Default PyCharm keymap for macOS
+
+Default PyCharm keymap for Windows and Linux
+
+Learn shortcuts as you work﻿
+PyCharm provides several possibilities to learn shortcuts:
+
+Find Action is the most important command that enables you to search for commands and settings across all menus and tools.
+
+Press Ctrl+Shift+A and start typing to get a list of suggested actions. Then select the necessary action and press Enter to execute it.
+
+Find Action
+Key Promoter X is a plugin that shows a popup notification with the corresponding keyboard shortcut whenever a command is executed using the mouse. It also suggests creating a shortcut for commands that are executed frequently.
+
+If you are using one of the predefined keymaps for your OS, you can print the default keymap reference card and keep it on your desk to consult it if necessary. This cheat sheet is also available under Help | Keymap Reference.
+
+To print a non-default or customized keymap, use the Keymap exporter plugin.
+
+If an action has a keyboard shortcut associated with it, the shortcut is displayed near the name of the action. To add a shortcut for an action that you use frequently (or if you want to change an existing shortcut), select it and press Alt+Enter.
+
+Use advanced features﻿
+You can further improve your productivity with the following useful features:
+
+Quick Lists
+
+If there is a group of actions that you often use, create a quick list to access them using a custom shortcut. For example, you can try using the following predefined quick lists:
+
+Refactor this Ctrl+Alt+Shift+T
+
+VCS Operations Alt+`
+
+Smart Keys
+
+PyCharm provides a lot of typing assistance features, such as automatically adding paired tags and quotes, and detecting CamelHump words.
+
+Speed search
+
+When the focus is on a tool window with a tree, list, or table, start typing to see matching items.
+
+Press twice
+
+Many actions in PyCharm provide more results when you execute them multiple times. For example, when you invoke basic code completion with Ctrl+Space on a part of a field, parameter, or variable declaration, it suggests names depending on the item type within the current scope. If you invoke it again, it will include classes available through module dependencies. When invoked for the third time in a row, the list of suggestions will include the whole project.
+
+Resize tool windows
+
+You can adjust the size of tool windows without a mouse:
+
+To resize a vertical tool window, use Ctrl+Alt+Shift+Left and Ctrl+Alt+Shift+Right
+
+To resize a horizontal tool window, use Ctrl+Alt+Shift+Up and Ctrl+Alt+Shift+Down
