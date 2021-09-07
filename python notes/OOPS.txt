@@ -1,0 +1,20 @@
+OOP object oritented programming
+
+
+an object has two important aspects what it has and what it does
+
+what it has is attributes
+
+whats it does is methods (methods are funtions associated to an object)
+
+for example in a hotel, we need multiple modules like waiter, chef etc, now these are created as objects
+
+if we want multiple waiters then we create them by creating a blueprint of how to create these objects this blueprint is called class
+
+waiter(class)--> individual waiters like betty(object) and jerry(object)
+
+creating an object in code:
+car = CarBlueprint()
+car is the object
+CarBlueprint is the classname and it should be written in Pascal case meaning first case is capital
+parantheses in the end just like defining functions to construct/initiate an object

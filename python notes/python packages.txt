@@ -1,0 +1,8 @@
+packages are used in python to import and use multiple codes done by other developers
+package is a collection of modules
+
+you can learn about all packages in python in the below link
+https://pypi.org/
+
+to install a package in pycharm follow the below steps:
+file- settings - python project - project interpreter - then click + symbol and type the package name then click install package
