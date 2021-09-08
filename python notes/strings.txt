@@ -1,0 +1,12 @@
+in strings if we need to chnage a character we can use replace function or
+convert string toa list and then change at the index position given and then change back to list by bewlo code
+
+string = "abracadabra"
+position = 5
+character = "k"
+list1 = list(string)
+list1[position] = character
+string2 = ""
+for i in list1:
+    string2 += i
+print(string2) 
