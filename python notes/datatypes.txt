@@ -1,6 +1,0 @@
-Float formatting: to format float values in the way we want to produce output
- sum_of_values = sum(student_marks[i])
-        avg = sum_of_values/len(student_marks[i])
-        avg = float(avg)
-        format_float = "{:.2f}".format(avg)
-        print(format_float)
