@@ -29,11 +29,12 @@ while is_game_on:
     if correct_guess == 50:
         is_game_on = False
     if answer == "Exit":
-        missing_states = []
-        for states in state_list:
-            if states not in correct_guess_list:
-                missing_states.append(states)
-        #print(missing_states)
+        missing_states = [states for states in state_list if states not in correct_guess_list]
+        # missing_states = []
+        # for states in state_list:
+        #     if states not in correct_guess_list:
+        #         missing_states.append(states)
+
         is_game_on = False
 new_data_state = pandas.DataFrame(missing_states)
 new_data_state.to_csv("statesToLearn.csv")
