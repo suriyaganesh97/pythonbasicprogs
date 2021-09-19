@@ -1,0 +1,72 @@
+
+
+Written Exam on Unix commands, Shell scripting, Coding (Any language) and Data Structures
+Read Folk stalk and geeks for geeks for UNIX commands and problem solving(Coding) And one real time Production questions
+
+The file is given as follows containing records of length 10 having mix of numbers, alphabets and alphanumeric characters.
+1234567890
+0987654321
+ABCDEFGH
+123456789X
+1234567890
+123456789X
+Write a script command to print the distinct records containing only alphanumeric characters.
+Expected Output : 123456789X
+[2 Marks]
+
+Write a script command to rename all .JPG files to .JPEG files in the current directory.[2 Marks]
+Write a command to kill a process using process name. [2 Marks]
+Script command to calculate the total size of all the PDF files in the directory. [2 Marks]
+
+
+Round 2: Debugging and Troubleshooting/Scripting
+
+Tell me about yourself.
+Given the contents of the file as follow:
+Company1 400
+Company2 500
+Company3 600
+Company2 150
+Company1 350
+Write a script command to find the total cost incurred by Company1.
+Script command to print the sentence in reverse order.
+I/P - "You are in Amazon"
+O/P - "Amazon in are You"
+
+Given a file containing some sample text, write a script command to count the number of occurrences of the word “Amazon”.
+Given a file containing some sample text, write a script command to change all occurrences of the word “Amazon” with “It” in the file.
+
+
+1. check whether the word Amazon present in given file.
+2. given two file with name and marks. Print the total mark for the person
+file 1:
+abc,70
+def,90
+ghi,100
+
+file2:
+def, 75
+abc, 90
+
+Output:
+abc,160
+def,165
+ghi,100
+
+3.Print the name of file which has volume of more than 1 GB from a directory
+
+
+2. Shell script . Download a zip file from given website . Upload it to remote server and extract the zip file in remote server. Ensure the file permission and also count the number of file which has extension as *.html and *.css
+
+Interview Questions
+Find and replace words in the file without opening / writing into new file using unix script.
+Pattern check and modify using unix script.
+Password validation using unix script.
+
+
+Scripting:
+1.List top 2 zip files under a particular directory
+2. Delete all log files under a particular directory
+3.Run a command in the background in linux
+4.Write text into file
+5. Append text at top of existing file content

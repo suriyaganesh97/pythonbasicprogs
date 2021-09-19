@@ -1,54 +1,25 @@
 Round 1: Written test (Elimination Round)
 There were total 6 questions. 2 coding and 4 scripting questions.
 
+Programming 
 Write a function to print the run length encoding of a given string.
 Example : 
 I/P String - wwwwwxxxxddaaaww
 O/P String - w5x4d2a3w2
-[5 marks]
+[5 marks]    
+ans runlengthencoding
 
 Write a function to print the spiral of a matrix. [5 marks]
-The file is given as follows containing records of length 10 having mix of numbers, alphabets and alphanumeric characters.
-1234567890
-0987654321
-ABCDEFGH
-123456789X
-1234567890
-123456789X
-Write a script command to print the distinct records containing only alphanumeric characters.
-Expected Output : 123456789X
-[2 Marks]
 
-Write a script command to rename all .JPG files to .JPEG files in the current directory.[2 Marks]
-Write a command to kill a process using process name. [2 Marks]
-Script command to calculate the total size of all the PDF files in the directory. [2 Marks]
-
-
-Round 2: Debugging and Troubleshooting/Scripting
-
-Tell me about yourself.
-Given the contents of the file as follow:
-Company1 400
-Company2 500
-Company3 600
-Company2 150
-Company1 350
-Write a script command to find the total cost incurred by Company1.
-Script command to print the sentence in reverse order.
-I/P - "You are in Amazon"
-O/P - "Amazon in are You"
-
-Given a file containing some sample text, write a script command to count the number of occurrences of the word “Amazon”.
-Given a file containing some sample text, write a script command to change all occurrences of the word “Amazon” with “It” in the file.
 Given an array of positive and negative numbers, find the maximum product of the pair of numbers in the array.
 
 
 Q1. 1st round coding: First there was written test on coding and unix basic commands like grep,ping. Then there was face 2 face coding round where they asked - a. Given input string aaabbc print output a3b2c1. 
 
-View answer (1)
+
 Q2. 2nd round troubleshooting: its troubleshooting round, where you will be asked question based on some issue. Mine was related to unix scripting and troubleshooting. 
 
-Add Answer
+
 Q3. In the third round it was technical hr scripting where scripting in Linux and some questions about linux and then previous project experience questions was asked 
 
 Add Answer
@@ -81,43 +52,24 @@ Programming question 1: Sum of pair of numbers from given array which is equival
 Objective question 1: In a excel, columns are named as A,B,C,...,Z,AA,AB,AC,....,AZ,BA,BB,BC,....,BZ,........ The task is we have to map numbers for that columns . E.g: A is 1 , B is 2 ,.... Z is 26, AA is 27, AB is 28, AC is 29 ,.... AZ is 52 , BA is 53 ...... We have to find the equivalent number for the given column name For E.g: for this AB is equal to 28 and ABA is 729 . We have to derive mathematical formula for it.
 
 Round 2: Technical round 2
-1. check whether the word Amazon present in given file.
-2. given two file with name and marks. Print the total mark for the person
-file 1:
-abc,70
-def,90
-ghi,100
 
-file2:
-def, 75
-abc, 90
-
-Output:
-abc,160
-def,165
-ghi,100
-
-3.Print the name of file which has volume of more than 1 GB from a directory
 4. Print the 5th word of line which is divided by 3 ( printing 5 th word from line number 3,6,9,12,.....)
 5. Check given two string is rotated string . (E.g : string1= ABCD , string2= BCDA. rotating string1 by 1 position will give string2. So print Yes)
 6.Trouble shooting question.For E.g : Consider the application Facebook , which supports both mobile app and web app. Problem is a person is uploaded a photo in web app . But the photo is not visible in Mobile App. How did you analyze and find the root cause. I have listed the some steps . And interviewer asked what next ? he asked what next until he get all possible ways
 
 Round 3: Managerial Round 1:
-Questions are about Amazon Leadership principle and project related questions
+
 
 Round 4: Manager Round 2:
 
 This also should be Leadership principal . But interviewer asked Technical questions.
 1. Gave a program using Stack Datastructure and find the output of it.
-2. Shell script . Download a zip file from given website . Upload it to remote server and extract the zip file in remote server. Ensure the file permission and also count the number of file which has extension as *.html and *.css
+
 3.Some project experiences
 
 
 
-Interview Questions
-Find and replace words in the file without opening / writing into new file using unix script.
-Pattern check and modify using unix script.
-Password validation using unix script.
+
 
 
 Find the missing numbers between smallest and largest element in the array.
@@ -126,12 +78,7 @@ Find the missing numbers between smallest and largest element in the array.
 Programming Language(any):
 1. Print first prime number after a given number
 2. Generate 10 random numbers between given range
-Scripting:
-1.List top 2 zip files under a particular directory
-2. Delete all log files under a particular directory
-3.Run a command in the background in linux
-4.Write text into file
-5. Append text at top of existing file content
+
 
 2nd Round:
 Programming Language(any):
@@ -143,5 +90,3 @@ Scripting:
 2.Delete lines 20-30 in a file
 3.Print occurrence of each word in a file
 
-Written Exam on Unix commands, Shell scripting, Coding (Any language) and Data Structures
-Read Folk stalk and geeks for geeks for UNIX commands and problem solving(Coding) And one real time Production questions
