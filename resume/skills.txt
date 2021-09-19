@@ -1,0 +1,1 @@
+Python, Java, HTML5, CSS3, JavaScript, Python Pandas, Bootstrap framework, JQuery, IBM WCS V8/V9, Git, Tortoise SVN, Oracle SQL, Linux servers, PostMan, Splunk, New Relic, Docker, Jiira, Servicenow

@@ -1,7 +1,5 @@
 #st = "wwwwaaadexxxxxxywww"
 
-
-
 st = "aaabab"
 n = len(st)
 i = 0
