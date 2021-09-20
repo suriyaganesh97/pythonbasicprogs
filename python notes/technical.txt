@@ -9,9 +9,12 @@ O/P String - w5x4d2a3w2
 [5 marks]    
 ans runlengthencoding
 
-Write a function to print the spiral of a matrix. [5 marks]
+Write a function to print the spiral of a matrix. [5 marks]  complicated check when fresh
+https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
 
 Given an array of positive and negative numbers, find the maximum product of the pair of numbers in the array.
+complicated check when fresh
+https://www.geeksforgeeks.org/return-a-pair-with-maximum-product-in-array-of-integers/
 
 
 Q1. 1st round coding: First there was written test on coding and unix basic commands like grep,ping. Then there was face 2 face coding round where they asked - a. Given input string aaabbc print output a3b2c1. 
@@ -90,3 +93,9 @@ Scripting:
 2.Delete lines 20-30 in a file
 3.Print occurrence of each word in a file
 
+
+
+Notes:
+Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+
+There are many real-life examples of a stack. Consider an example of plates stacked over one another in the canteen. The plate which is at the top is the first one to be removed, i.e. the plate which has been placed at the bottommost position remains in the stack for the longest period of time. So, it can be simply seen to follow LIFO(Last In First Out)/FILO(First In Last Out) order.
