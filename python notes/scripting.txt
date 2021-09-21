@@ -70,3 +70,14 @@ Scripting:
 3.Run a command in the background in linux
 4.Write text into file
 5. Append text at top of existing file content
+
+
+Scripting notes:
+
+The scripts are just a series of commands which needs to executed in a order instead of executing it one by one
+we can automate the rpcoess by putting this commands in the script file and running the script
+
+a script usually starts with a #! this
+
+
+The name shebang for the distinctive two characters comes from an inexact contraction of SHArp bang or haSH bang, referring to the two typical Unix names for them. Another theory on the sh in shebang is that it is from the default shell sh, usually invoked with shebang.

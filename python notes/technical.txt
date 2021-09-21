@@ -7,9 +7,9 @@ Example :
 I/P String - wwwwwxxxxddaaaww
 O/P String - w5x4d2a3w2
 [5 marks]    
-ans runlengthencoding
+ans runlengthencoding  completed
 
-Write a function to print the spiral of a matrix. [5 marks]  complicated check when fresh
+Write a function to print the spiral of a matrix. [5 marks]  see notes and practice one before interview
 https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
 
 Given an array of positive and negative numbers, find the maximum product of the pair of numbers in the array.
@@ -18,7 +18,7 @@ https://www.geeksforgeeks.org/return-a-pair-with-maximum-product-in-array-of-int
 
 
 Q1. 1st round coding: First there was written test on coding and unix basic commands like grep,ping. Then there was face 2 face coding round where they asked - a. Given input string aaabbc print output a3b2c1. 
-
+completed
 
 Q2. 2nd round troubleshooting: its troubleshooting round, where you will be asked question based on some issue. Mine was related to unix scripting and troubleshooting. 
 
@@ -48,10 +48,14 @@ Q10. Shell scripts, Java, programming questions and then managerial rounds
 
 Written Test: Contains 15 MCQ and 2 programming questions.
 Programming Question 1: Find the username from given mail. (E.g: abcd@gmail.com, here the word before @ is username . So we have to print abcd)
-Programming Question 2: Calculate sum of diagonal of given unsquare matrix E.g: For matrix [[1,2,3],[4,5,6]] output is 6 and for matrix [[1,2],[3,4],[5,6]] output is 5.
+username.py completed
 
+Programming Question 2: Calculate sum of diagonal of given unsquare matrix E.g: For matrix [[1,2,3],[4,5,6]] output is 6 and for matrix [[1,2],[3,4],[5,6]] output is 5.
+complicated check when fresh
 Round 2: Technical Round 1
 Programming question 1: Sum of pair of numbers from given array which is equivalent to given value : (For E.g: array ( 1,2,3,4,5,6) and value is 6 . so, output is (1,5) gives 6 and (2,4) gives 6. They have checked all the corner cases and also they are checking space and time complexity.
+complicated check when fresh
+
 Objective question 1: In a excel, columns are named as A,B,C,...,Z,AA,AB,AC,....,AZ,BA,BB,BC,....,BZ,........ The task is we have to map numbers for that columns . E.g: A is 1 , B is 2 ,.... Z is 26, AA is 27, AB is 28, AC is 29 ,.... AZ is 52 , BA is 53 ...... We have to find the equivalent number for the given column name For E.g: for this AB is equal to 28 and ABA is 729 . We have to derive mathematical formula for it.
 
 Round 2: Technical round 2
@@ -71,11 +75,9 @@ This also should be Leadership principal . But interviewer asked Technical quest
 3.Some project experiences
 
 
-
-
-
-
 Find the missing numbers between smallest and largest element in the array.
+betweensmallandhigh completed 
+
 
 1st Round:
 Programming Language(any):
@@ -99,3 +101,6 @@ Notes:
 Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
 
 There are many real-life examples of a stack. Consider an example of plates stacked over one another in the canteen. The plate which is at the top is the first one to be removed, i.e. the plate which has been placed at the bottommost position remains in the stack for the longest period of time. So, it can be simply seen to follow LIFO(Last In First Out)/FILO(First In Last Out) order.
+
+
+read small python code like leap year fibonacci in night time
