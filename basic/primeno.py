@@ -1,24 +1,14 @@
-num1=int(input('enter a no'))
-num2=num1
-i=2
-flag=0
-while(i<num1):
-    if(num1%i==0):
-        flag+=1
-    i+=1
-if(flag==0):
-    print('the no is prime number')
+a = int(input("enter a number: "))
+if a > 1:
+    # Iterating over the given number with for loop
+    for j in range(2, int(a / 2) + 1):
+        # If the given number is divisible or not
+        if (a % j) == 0:
+            print(a, "is not a prime number")
+            break
+            # Else it is a prime number
+    else:
+        print(a, "is a prime number")
+    # If the given number is 1
 else:
-    print('the no is not a prime number')
-
-
-print()
-print('more efficient way in below program')
-for j in range(2,num1):      #can reduce the iteartion to num1/2 or square root of num1
-    if(num1%j==0):
-        print('not a prime no')
-        break
-else:    #using for else condition here
-    print('the no is a prime no')
-
-
+    print(a, "is not a prime number")

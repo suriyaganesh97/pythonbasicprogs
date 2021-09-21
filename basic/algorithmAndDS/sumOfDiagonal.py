@@ -1,4 +1,4 @@
-def solve(matrix):
+def solve(matrix):  # working only for square check net
    m = len(matrix)
    if m == 1: return matrix[0][0]
 
