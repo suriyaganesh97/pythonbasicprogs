@@ -1,16 +1,10 @@
-def solve(matrix):  # working only for square check net
-   m = len(matrix)
-   if m == 1: return matrix[0][0]
-
-   count = 0
-   for i in range(m):
-      count += matrix[i][i]
-      count += matrix[i][-1 - i]
-
-   if m % 2 == 1:
-       count -= matrix[m // 2][m // 2]
-
-   return count
-
-matrix = [[1,2,3],[4,5,6]]
-print(solve(matrix))
+A = [[7,1,5],[1,2,3],[4,0,6]]
+M = 3
+sum = 0
+for i in range(0, M):
+   for j in range(0, M):
+      if i == j:    #capturing 0,0 1,1, and 2,2 elements
+         sum = sum + A[i][j]
+      elif i + j == M-1:     #capturing 0,3 and 2,0 elements of matrix
+         sum = sum + A[i][j]
+print(sum)
