@@ -1,12 +1,32 @@
 # a=1 z= 26   az = 52
-list_1 = []
-for i in range(ord('a'), ord('z')+1):
+alpha = ""
+for i in range(ord('A'), ord('Z')+1):
     a = chr(i)
-    list_1.append(a)
-user_char = input("input a char to find its row: ")
+    alpha += a
+#print(alpha)
 
-final_string = ""
-for i in user_char:
-    pos = list_1.index(i)
-    final_string += str(pos+1)
-print(final_string)
+def num_hash(num):
+    if num < 26:
+        return alpha[num - 1]
+    else:
+        q = num // 26
+        r = num % 26
+        if r == 0:
+            if q == 1:
+                return alpha[r-1]     # 26 value is captured here
+            else:  #captures value like 52,78 where last code is Z and for rest the function is called recursively
+                return num_hash(q - 1) + alpha[r - 1]
+        else:   #captures value like 51 where rem is not zero so function called to find first code while last code is printed from alpha
+            return num_hash(q) + alpha[r - 1]
+
+
+# num = int(input("enter a value: "))
+# print(num_hash(num))
+
+print(num_hash(26))
+print(num_hash(51))
+print(num_hash(52))
+print(num_hash(80))
+print(num_hash(676))
+print(num_hash(702))
+print(num_hash(705))
