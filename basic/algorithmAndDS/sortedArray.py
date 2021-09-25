@@ -1,5 +1,5 @@
 def mergeArrays(arr1, arr2, n1, n2):
-    arr3 = [None] * (n1 + n2)  #intializing the array with n1 + n2 number of elements
+    arr3 = [None] * (n1 + n2)
     i = 0
     j = 0
     k = 0

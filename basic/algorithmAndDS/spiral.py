@@ -15,7 +15,7 @@ n = 4
     i - iterator '''
 #range will run only till value sepcified - 1
 # but in print we should specify the end value as well
-while (k < m and l < n):
+while k < m and l < n:
     # Print the first row from
     # the remaining rows
     for i in range(l, n):
@@ -35,17 +35,17 @@ while (k < m and l < n):
     # the remaining rows
     # Print the bottom row, i.e. if k < m,
     # then print the elements of m-1th row from column n-1 to l and decrease the count of m
-    if (k < m):
+    if k < m:
 
-        for i in range(n - 1, (l - 1), -1):
+        for i in range(n - 1, (l - 1), -1):  # only till l-1 as element in l would have already been printed
             print(a[m - 1][i], end=" ")
 
         m -= 1
 
     # Print the first column from
     # the remaining columns
-    if (l < n):
-        for i in range(m - 1, k - 1, -1):
+    if l < n:
+        for i in range(m - 1, k - 1, -1):   #only till k-1 as element in k would have already been printed
             print(a[i][l], end=" ")
 
         l += 1

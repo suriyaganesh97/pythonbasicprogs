@@ -3,7 +3,7 @@ vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
 
 dirty_dozen = [fruits, vegetables]    #nested list
 print(fruits)
-print(fruits[1])   #grapes is printed and not apples
+print(fruits[1])   #nectarines is printed and not apples
 fruits[2] = "guava"
 print(fruits)
 fruits.append("pomegranate")
