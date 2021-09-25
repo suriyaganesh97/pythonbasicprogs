@@ -76,9 +76,7 @@ This also should be Leadership principal . But interviewer asked Technical quest
 
 
 Find the missing numbers between smallest and largest element in the array.
-betweensmallandhigh completed 
-
-
+betweensmallandhigh compoleted 
 1st Round:
 Programming Language(any):
 1. Print first prime number after a given number

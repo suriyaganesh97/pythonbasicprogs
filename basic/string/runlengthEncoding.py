@@ -1,5 +1,5 @@
 #st = "wwwwaaadexxxxxxywww"
-# worn output for aaabab check why?
+
 st = "aaabba"
 n = len(st)
 i = 0
