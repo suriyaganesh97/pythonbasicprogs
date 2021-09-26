@@ -1,3 +1,4 @@
+# program is to find the numbers missing in the list between highest and lowest
 arr1 = [1,2,5,10]
 high_no = max(arr1)
 small_no = min(arr1)

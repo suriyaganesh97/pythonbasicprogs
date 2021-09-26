@@ -4,6 +4,6 @@ n = len(arr1)
 prodofLowestno = arr1[0] * arr1[1]
 prodofHighestno = arr1[n-1] * arr1[n-2]
 if prodofHighestno > prodofLowestno:
-    print(prodofHighestno)
+    print(arr1[n-1],arr1[n-2],prodofHighestno)
 else:
-    print(prodofLowestno)
+    print(arr1[0],arr1[1],prodofLowestno)

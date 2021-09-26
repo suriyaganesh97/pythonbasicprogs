@@ -5,6 +5,7 @@ for i in range(ord('A'), ord('Z')+1):
     alpha += a
 #print(alpha)
 
+#below concept uses recursive funsion so need of loop the func calls itself until correct output is found
 def num_hash(num):
     if num < 26:
         return alpha[num - 1]

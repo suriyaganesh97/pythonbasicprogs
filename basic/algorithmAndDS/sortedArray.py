@@ -6,15 +6,9 @@ def mergeArrays(arr1, arr2, n1, n2):
 
     # Traverse both array
     while i < n1 and j < n2:
+        # Check if current element of first array is smaller than current element of second array. If yes,store first
+        # array element and increment first arrayindex. Otherwise do same with second array
 
-        # Check if current element
-        # of first array is smaller
-        # than current element of
-        # second array. If yes,
-        # store first array element
-        # and increment first array
-        # index. Otherwise do same
-        # with second array
         if arr1[i] < arr2[j]:
             arr3[k] = arr1[i]
             k = k + 1
@@ -24,17 +18,15 @@ def mergeArrays(arr1, arr2, n1, n2):
             k = k + 1
             j = j + 1
 
-    # Store remaining elements
-    # of first array
+    # Store remaining elements  of first array
     while i < n1:
-        arr3[k] = arr1[i];
+        arr3[k] = arr1[i]
         k = k + 1
         i = i + 1
 
-    # Store remaining elements
-    # of second array
+    # Store remaining elements  of second array
     while j < n2:
-        arr3[k] = arr2[j];
+        arr3[k] = arr2[j]
         k = k + 1
         j = j + 1
     print("Array after merging")
@@ -48,4 +40,4 @@ n1 = len(arr1)
 
 arr2 = [2, 4, 6, 8]
 n2 = len(arr2)
-mergeArrays(arr1, arr2, n1, n2);
+mergeArrays(arr1, arr2, n1, n2)

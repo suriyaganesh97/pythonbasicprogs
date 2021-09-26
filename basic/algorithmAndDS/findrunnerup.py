@@ -6,3 +6,4 @@ arr2 = []
 [arr2.append(i) for i in arr if i not in arr2] #list comprehesnion to remove duplicates
 
 print(arr2[len(arr2)-2])
+#print(arr2[-2])  this is also correct as list is indexed in reverse in negative
