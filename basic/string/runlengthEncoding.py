@@ -4,10 +4,9 @@ st = "aaabba"
 n = len(st)
 i = 0
 while i < n:
-    # Count occurrences of
-    # current character
+    # Count occurrences of current character
     count = 1   #initialise count to 1 since the letter is present at least once
-    while (i < n-1 and st[i] == st[i+1]):
+    while i < n-1 and st[i] == st[i+1]:
         count += 1
         i += 1
     i += 1  #to increment the main while loop
