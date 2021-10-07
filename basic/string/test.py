@@ -1,11 +1,7 @@
-st = "aaabba"
-n = len(st)
-i = 0
+for i in range(4):
+    num1=[]
+    num1.append(int(input("enter a value ")))
+    print(num1)
+print(num1)
 
-while i<n:
-    count =1
-    while i<n-1 and st[i]==st[i+1]:
-        count+=1
-        i+=1
-    i+=1
-    print(st[i-1]+str(count),end="")
+
